@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <NG_SettingsCategoryLabel>Names Galore</NG_SettingsCategoryLabel>
+  <NG_EnableInternationalLabel>International names</NG_EnableInternationalLabel>
+  <NG_InternationalNote>NOTE: "International names" sets this mod to mix up names from all languages and not just your language.</NG_InternationalNote>
+  <NG_NicknameProbability>Probability of a nickname</NG_NicknameProbability>
+
+</LanguageData>

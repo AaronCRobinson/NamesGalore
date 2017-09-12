@@ -1,5 +1,311 @@
 Alexsis
 Oreo
+The Douche
+Le douche
+Taxes
+Flux
+Pumpkin
+Bumpkin
+Nyx
+Law
+The Law
+Adley
+Amory
+Ansen
+Bracken
+Cobi
+Hayes
+Hudson
+Kai
+Kagan
+Klynn
+Lennon
+Mikkel
+Miri
+Mishka
+Orly
+Pike
+Tate
+Teigen
+Woodson
+Contra
+Dapper
+Bandit
+Blitz
+Brick
+Butcher
+Buzzsaw
+Cajun
+Chops
+Cobra
+Cougar
+Coyote
+Crash
+Diamond
+Enforcer
+Fatal
+Flash
+Fury
+Gator
+Ghost
+Hound Dog
+Ice
+Icepick
+Jaws
+Judgment Day
+Knuckles
+Monster
+Mustang
+Paladin
+Predator
+Razor
+Samurai
+Scorpion
+Shogun
+Shadow
+Slayer
+Snake
+Snake Eyes
+Solo
+Specter
+Spider
+Stalker
+Steel
+Stinger
+Templar
+Trojan
+Vandal
+Viking
+Warden
+Warlord
+Wolverine
+Wildling
+Zulu
+Apex
+Ace
+Aftermath
+Alpha
+Blackjack
+Bullseye
+Bolt
+Big Shot
+Big Sleep
+Big Time
+Boss
+Checkmate
+Chief
+Colt
+Dallas
+Deadbolt
+Deadeye
+Deadlock
+Deadwood
+D.O.A.
+Eagle Eye
+Eight Ball
+Flatline
+Game Time
+Gangster
+Grave Digger
+Hat Trick
+Hawkeye
+Heater
+High Noon
+Hitman
+Hollywood
+Hype
+Icon
+Jackal
+Judge
+Lights Out
+Lockdown
+Long Shot
+Longwalker
+Needle
+Pale Rider
+Reaper
+Scratch
+Serial
+Sheriff
+Shooter
+Showtime
+Slick
+Slinger
+Stonecold
+The Cleaner
+The Kid
+The Truth
+Tombstone
+Top Notch
+Top Shelf
+Two Tap
+Undertaker
+Valentine
+All Day
+All In
+Animal
+Baller
+Big Country
+Big Money
+Big Nasty
+Blaze
+Boom Boom
+Boomer
+Bomber
+Bulldog
+Bull Rush
+Claymore
+Demo
+Defcon
+Devil Dog
+Diesel
+Encore
+Fireball
+Fridge
+Gunner
+Hammer
+Hellfire
+Hightower
+Hoss
+Volcano
+Hurricane
+Junkyard
+Juggernaut
+Knockout
+Kong
+Mad Dog
+Meltdown
+Moose
+Nova
+Nitro
+Nukes
+Ogre
+Pitbull
+Pyro
+Redline
+Rhino
+Rocket
+Seabreeze
+Slab
+Smash
+Spitfire
+Smokey
+Swamp Thing
+T-Bone
+T-Rex
+Tank
+Thumper
+Thunder
+Tickle
+Tiny
+Titan
+Dynamite
+Torch
+Wardog
+Warhorse
+Wildchild
+Angel
+Beta
+Bishop
+Bones
+Breaker
+Broker
+Crypto
+Cyber
+Cypher
+Data
+Deacon
+Dr. Feelgood
+Doc
+Feedback
+Firewall
+Genius
+Gizmo
+Glitch
+Hijack
+Jammer
+Jester
+Jolt
+Lightning
+Mayday
+Mega
+Newton
+Overdrive
+Patch
+Professor
+Ragtime
+Rascal
+Rattler
+Red
+Rift
+Ripcord
+Rogue
+Scorch
+Sentinel
+Shady
+Shakes
+Shifter
+Shrink
+Slider
+Solar
+Sonar
+Sparks
+Stitch
+Tapper
+Teardrop
+Tinker
+Turbo
+Venom
+Vapor
+Warbird
+Whiskey
+Wild Thing
+Wiz
+Witchy
+Warlock
+Psycho
+Dirge
+Echo
+Ecto
+Haze
+Hex
+Zen
+Omega
+Dusk
+Voodoo
+Hellion
+Freak
+Twitch
+Dread
+Ghoul
+Oz
+Null
+Zero
+Ouija
+Prophet
+Nightmare
+Viper
+Spook
+Demon
+Raven
+Vader
+Syndrome
+Druid
+Thriller
+Phoenix
+Midnight
+Crow
+Scarecrow
+Vampire
+Werewolf
+Zombie
+Firefly
+Omen
+Xeno
+Grim
+Shriek
+Alexsis
+Oreo
 The `Douche`
 Le douche
 Taxes
@@ -30,3 +336,913 @@ Teigen
 Woodson
 Contra
 Dapper
+Albatross
+Alleycat
+Apollo
+Argonaut
+Ashes
+Asphalt
+Badger
+Badlands
+Backhand
+Bang Bang
+Banjo
+Barbwire
+Barghest
+Barracuda
+Bayonet
+Beatdown
+Black Dog
+Blitzkrieg
+Bloodsport
+Bootcamp
+Brave
+Brigand
+Buckaroo
+Buckshot
+Bullfrog
+Bunyip
+Buzzard
+Cactus
+Calamity
+Casanova
+Cerberus
+Chainsaw
+Cheyenne
+Chupacabra
+Cicada
+Commando
+Cowboy
+Crackerjack
+Cutthroat
+Cyclone
+Daemon
+Dervish
+Dial-Tone
+Double Down
+Dragonfly
+Elk
+Falcon
+Ferret
+Firebird
+Footloose
+Foxhound
+Freebooter
+Gemini
+Ghost Hound
+Gladiator
+Grand Slam
+Grasshopper
+Grey Fox
+Griffin
+Hammerhead
+Hard Sell
+Harrier
+Hatchet
+Heartache
+Hector
+High Roller
+Highway
+Holdup
+Hoodlum
+Hot Rod
+Hotline
+Howler
+Husker
+Hussar
+Icefall
+Impala
+Invisible
+Jackrabbit
+Jaguar
+Jetstream
+Kamikaze
+Kangaroo
+Kid
+Knife Party
+Komodo
+Lancelot
+Lawless
+Lionfish
+Locust
+Long March
+Long Walk
+Lynx
+Mad Cat
+Maneater
+Mantis
+Mantle
+Marathon
+Marauder
+Mastiff
+Meerkat
+Mirage
+Mistletoe
+Mojave
+Mongoose
+Mongrel
+Mutt
+Navvy
+Newt
+Night Stalker
+Nightshade
+Nomad
+Onslaught
+Outlaw
+Outrider
+Patches
+Pathfinder
+Payback
+Peregrine
+Pilgrim
+Pioneer
+Piranha
+Poacher
+Poncho
+Porcupine
+President
+Punk
+Quicksilver
+Rabbit
+Raptor
+Reckless
+Relentless
+Reynardine
+Roadrunner
+Roughhouse
+Rottweiler
+Runner
+Sabre
+Saint
+Salty Dog
+Scooter
+Shawl
+Sickle
+Silhouette
+Sioux
+Slugger
+Sojourner
+Songbird
+Spartan
+Spatha
+Spit-Shine
+Spriggan
+Squirrel
+Stag
+Stagecoach
+Stingray
+Striker
+Sundance
+Swingfire
+Switchblade
+Talon
+Tarantula
+Tattoo
+Tengu
+Thrash
+Thug
+Thunderdome
+Tomahawk
+Tomcat
+Tumbleweed
+Uppercut
+Valiant
+Vigilante
+Vodka
+Walker
+War Dance
+Warpaint
+Weasel
+White Fang
+Wild River
+Windwalker
+Wolf Cub
+Wrong Way
+Yangtze
+Zero
+Adder
+Adversus
+Antlion
+Archery
+Arrow
+Arrowhead
+Baccarat
+Backlash
+Basilisk
+Bingo
+Black Arrow
+Blackhawk
+Blindfold
+Blindside
+Bloodhound
+Boneyard
+Boss
+Broadhead
+Bugbear
+Bull Shark
+Capricorn
+Centurion
+Charon
+Clean Sweep
+Crazy Horse
+Crossfire
+Crosshair
+Daybreak
+Deep Six
+Desperado
+Diamondback
+Dragoon
+Einherjar
+El Diablo
+Equinox
+Excalibur
+Eyrie
+Fenris
+Finale
+Firestreak
+Flashback
+Flea
+Fortune
+Gehenna
+Ghost Dance
+Gladius
+Golden Gun
+Gorgon
+Halcyon
+Hangman
+Harpoon
+Hellhound
+Hemlock
+Hermit
+Heron
+Highlander
+Homerun
+Hornet
+Horseshoe
+Hot Minute
+Hotshot
+Huron
+Iced Tea
+Jaeger
+Javelin
+Judgement
+Jupiter
+King Cobra
+Kingfisher
+Kit Fox
+Lance
+Libra
+Longbow
+Longinus
+Longslide
+Lucerne
+Magnum
+Mamba
+Marshal
+Meek
+Midnight
+Mistral
+Monarch
+Naga
+Night Owl
+Night Sky
+Nightwatch
+Occam
+Ocelot
+Osprey
+Owl
+Patience
+Pavehawk
+Penance
+Phantasm
+Pinball
+Pitfall
+Polaris
+Prowler
+Pyre
+Rake
+Rapier
+Raven
+Red Nine
+Revenant
+Ronin
+Rook
+Safari
+Saorsa
+Sayonara
+Sea Lance
+Sepulchre
+Shadow Hawk
+Shillelagh
+Showdown
+Shrike
+Skybolt
+Skylark
+Smoking Gun
+Sparrow
+Spearhead
+Spook
+Starstreak
+Sterling
+Striga
+Sundown
+Swordfish
+Thumper
+Thunderclap
+Timberwolf
+Tracer
+Trapdoor
+Trickshot
+Trident
+Two Times
+Typhon
+Unforgiven
+Vector
+Velocity
+Venom
+Watchman
+Wendigo
+White Death
+White Tiger
+Winternight
+Wolf
+Wolfsbane
+Zodiac
+Alamo
+Anarchy
+Anvil
+Ape
+Arbalest
+Avalanche
+Baboon
+Backdraft
+Barbell
+Barricade
+Bastille
+Battleship
+Bear
+Bedlam
+Big League
+Bigfoot
+Bison
+Blue Streak
+Blunderbuss
+Boom Town
+Broadside
+Buffalo
+Bull
+Bullwhip
+Bulwark
+Cannonball
+Caribou
+Carnival
+Castle
+Catfish
+Chimera
+Chinook
+Cloudburst
+Colossus
+Comrade
+Concussion
+Congo
+Convoy
+Crazy Eight
+Crescendo
+Cruiser
+Daijoubu
+Dead Horse
+Diesel
+Dire Wolf
+Dome
+Downburst
+Dozer
+Dragline
+Dreadnought
+Eerie
+El Dorado
+Fahrenheit
+Fiasco
+Firbolg
+Firedrake
+Firestorm
+Flinch
+Forge
+Funhouse
+Gargoyle
+Genesis
+Gettysburg
+Ghidorah
+Giant
+Goliath
+Grizzly
+Gumball
+Gunpowder
+Hard Knocks
+Hardcase
+Hardware
+Havoc
+Headline
+Highwall
+Hoplite
+Hot Mess
+Howitzer
+Hulk
+Ice Storm
+Invictus
+Jackhammer
+Jenga
+Jotunn
+Junior
+Kaboom
+Kabuto
+Kaiju
+Kickoff
+King Crab
+Kodiak
+Krakatoa
+Landslide
+Legionnaire
+Lineback
+Lion
+Lorica
+Lowball
+Maelstrom
+Manhattan
+Manticore
+Mars
+Massacre
+Mauler
+Maximum
+Mayhem
+Meteor
+Minotaur
+Mjollnir
+Molotov
+Moonshine
+Motherlode
+Myrmidon
+Narwhal
+Night Wolf
+Northstar
+Overkill
+Owlbear
+Panda
+Pandemonium
+Panzer
+Payday
+Peacekeeper
+Perdition
+Phalanx
+Piston
+Pitcher
+Pulveriser
+Punch Drunk
+Ragnarok
+Rainmaker
+Rat-a-tat
+Rattler
+Real Estate
+Rio Grande
+Roadhouse
+Rock
+Rockslide
+Ruckus
+Rushmore
+Sabretooth
+Salamander
+Sandbag
+Sandstorm
+Sasquatch
+Scarab
+Scrapper
+Shatterdome
+Shipwreck
+Shockwave
+Shrapnel
+Sidewinder
+Sledge
+Sloth
+Smokescreen
+Snow Plow
+Speedball
+Spitfire
+Squall
+Stampede
+Starfall
+Stoneface
+Sunder
+Sweeper
+Tanuki
+Taurus
+Tempest
+Thunderball
+Torpedo
+Touchdown
+Trebuchet
+Turtle
+Typhoon
+Ursa
+Valhalla
+Vanguard
+Vesuvius
+Warchief
+Warhammer
+Warthog
+Whirlwind
+Wildfire
+Wolfhound
+Workhorse
+Yak
+Yeti
+Zero Hour
+Abracadabra
+Aegis
+Animal
+Applejack
+Arcade
+Anarchy
+Atlas
+Bad News
+Backfire
+Baffle
+Bandicoot
+Battery
+Beanie
+Bell
+Big Top
+Black Magic
+Blacklist
+Bobcat
+Bombay
+Boogie
+Bookworm
+Boomerang
+Boondoggle
+Bootleg
+Broadway
+Buccaneer
+Bullpup
+Cadillac
+Capybara
+Carousel
+Casino
+Chameleon
+Coach
+Cobalt
+Coin-Toss
+Corsair
+Countdown
+Crusader
+Dakota
+Dazzler
+Devil Pup
+Dice
+Dizzy
+Downtown
+Dragnet
+Dutch
+Dynamo
+El Mariachi
+Eureka
+Falconer
+Fennec
+Fingers
+Firebee
+Flashfire
+Fox
+Frostbite
+Gallant
+Gambit
+Geronimo
+Glory
+Goose
+Grail
+Grandstand
+Greyhound
+Gridlock
+Grifter
+Hanafuda
+Hard Luck
+Hard Times
+Harpy
+Helios
+Helix
+Hephaestus
+Herald
+High Voltage
+Hijinks
+Hot Dog
+Hotwire
+Hunky Dory
+Hyperion
+Impulse
+Jiffy
+Joystick
+Kabuki
+Kestrel
+Keystone
+Killswitch
+Lexicon
+Libertine
+Liberty
+Longhorn
+Lucky
+Lyre
+Mace
+Magpie
+Manta Ray
+Marvel
+Matador
+Maverick
+Mercury
+Misfit
+Monk
+Mosquito
+Mumbles
+Navigator
+Nexus
+Nighthawk
+Northwind
+Odysee
+Otter
+Pack Rat
+Pageant
+Party Trick
+Paycheck
+Peacock
+Platinum
+Pluto
+Poker
+Privateer
+Puppy
+Puzzle Box
+Quick Fix
+Raccoon
+Rat
+Ratatoskr
+Rebound
+Redstone
+Reno
+Roadblock
+Rodan
+Romeo
+Roulette
+Saga
+Satellite
+Scapegoat
+Scramble
+Scrooge
+Sea Sparrow
+Seahorse
+Shadow Cat
+Shindig
+Short-Fuse
+Showboat
+Siesta
+Skipper
+Skippy
+Snowbird
+Solitaire
+Sparky
+Sphinx
+Sputnik
+Stand-Up
+Sunburn
+Sunhawk
+Swindler
+Taser
+Thief
+Thorn
+Timezone
+Toto
+Trinity
+Turnpike
+Vegas
+Vex
+Washout
+Wasp
+Wasted
+Weasel
+Wildcard
+Wildcat
+Winger
+Wisp
+Whizz-Kid
+Wonderchild
+Yahtzee
+Zipper
+Buck
+Alchemy
+Ararat
+Augur
+Bahamut
+Barbelith
+Bifrost
+Black Sun
+Blue Moon
+Bonfire
+Brig Rat
+Brimstone
+Bulletproof
+Burnout
+Cantrip
+Cardinal
+Cascade
+Catastrophe
+Celerity
+Chakram
+Comedian
+Corona
+Crossroad
+Cujo
+Dark Star
+Dead Sea
+Deliverance
+Dharma
+Discordia
+Dove
+Duergar
+Dust
+Edict
+Effigy
+El Topo
+Esper
+Evil Eye
+Faun
+Firestone
+Foo Dog
+Foxfire
+Freefall
+Gallows
+Genie
+Gestalt
+Glow Worm
+Glyph
+Grendel
+Grimoire
+Harbinger
+Harlequin
+Harmony
+Haruspex
+Heathen
+Hikikomori
+Hocus Pocus
+Hokum
+Homunculus
+Horrorshow
+Illuminati
+Jericho
+Jinx
+Karma
+Kraken
+Lab Rat
+Leviathan
+Magic
+Maypole
+Maze
+Midgard
+Migraine
+Mind Flayer
+Ministry
+Mojo
+Monolith
+Nosferatu
+Octopus
+Oni
+Outlander
+Painkiller
+Pazuzu
+Pendragon
+Pentacle
+Pentecost
+Rakshasa
+Redshift
+Samsara
+Saoirse
+Seidr
+Sensate
+Shazam
+Sigil
+Skean
+Solstice
+Stormcrow
+Sunspot
+Synesthete
+Talisman
+Thunderbird
+Timeslip
+Trance
+Triskelion
+Valis
+Vapor
+Wight
+Wizard
+Wormwood
+Wyrd
+Yukon
+Zuul
+Adamant
+Aesop
+Alcatraz
+Alexander
+Archimedes
+Ariete
+Arondight
+Astro
+Axion
+Blue Star
+Bluebird
+Boson
+Caesar
+Caladbolg
+Castellan
+Cataphract
+Challenger
+Clarent
+Colossus
+Darwin
+Deep Blue
+Dinky
+Dullahan
+Dyne
+Dynamo
+Euclid
+Excelsus
+Exodus
+Fenrir
+Fermat
+Flux
+Flycatcher
+Fox Moth
+Galapagos
+Gamma
+Golem
+Gort
+Guisarme
+Hadron
+Hawksbill
+Herald
+Hyperion
+Ice-Nine
+Iron Breaker
+Iron Fist
+Ironback
+Ironclad
+Jackdaw
+Joule
+Kelvin
+Kitt
+Kodiak
+Kozuka
+Lightfoot
+Loggerhead
+Mandragora
+Marquis
+Matamata
+Mayfly
+Median
+Monarch
+Nautilus
+Padishar
+Paragon
+Proteus
+Pygmalion
+Rashamon
+Ray
+Red Comet
+Rex
+Samaritan
+Sanjuro
+Skipper
+Spartacus
+Spriggan
+Sonny
+Strangelove
+Tachyon
+Taurus
+Tesla
+Tesseract
+Turing
+Vallaris
+Warbler
+Wedge
+Xenon
+Yojimbo
+Zaku
+Zanzibar
+Zatoichi
+Awerdenty
+Beartrap
+Beaver
+Blackbird
+Crow
+Deadfall
+Dove
+Galena
+Gristle
+Keener
+Kit
+Lobo
+Makhra
+Scratch
+Wolfer
