@@ -9,7 +9,7 @@ Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surn
 - Adds nicknames for males, females, and unisex
 - Adds romanized names for most languages
 - Adds ability to do "international names" which mixes up names from different cultures
-- Adds ability to set nickname rate
+- Adds ability to set nickname probability rate (adjusted default from 0.15, to 0.3)
 
 ## Help Wanted
 
