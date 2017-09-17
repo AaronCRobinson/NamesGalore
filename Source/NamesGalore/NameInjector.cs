@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Linq;
 using System.Collections.Generic;
 using System.Reflection;
 using Verse;
@@ -10,7 +11,10 @@ namespace NamesGalore
     [StaticConstructorOnStartup]
     public static class NameInjector
     {
+        static HashSet<string> supportedLangages = new HashSet<string> { "Chinese", "Dutch", "English", "French", "German", "Italian", "Japanese", "Korean", "Norwegian", "Polish", "Russian", "Spanish", "SpanishLatin", "Turkish", "Ukrainian" };
         static FieldInfo FI_banks = AccessTools.Field(typeof(PawnNameDatabaseShuffled), "banks");
+        static int counter;
+        static string curPath;
 
         static NameInjector()
         {
@@ -21,21 +25,35 @@ namespace NamesGalore
             if (NamesGaloreMod.settings.international)
             {
                 foreach(LoadedLanguage language in LanguageDatabase.AllLoadedLanguages)
-                    LoadNamesForLangauge(nameBank, language.folderName);
+                    if (supportedLangages.Contains(language.folderName))
+                        LoadNamesForLangauge(nameBank, language.folderName);
             }
             else
             {
-                LoadNamesForLangauge(nameBank, LanguageDatabase.defaultLanguage.folderName);
+                string curLanguage = LanguageDatabase.defaultLanguage.folderName;
+
+                if (supportedLangages.Contains(curLanguage))
+                    LoadNamesForLangauge(nameBank, curLanguage);
+                else
+                    Log.Error(string.Format("NG_LanguageNotFound".Translate(), curLanguage));
             }
 #if DEBUG
             nameBank.ErrorCheck();
 #endif
         }
 
+        // REFERENCE: from PawnNameDatabaseShuffled
         private static void LoadNamesForLangauge(NameBank nameBank, string languageFolderName)
         {
+            if (NamesGaloreMod.settings.logging)
+                Log.Message($"Importing names for {languageFolderName} language.");
+
             string relativeLanguagePath = Path.Combine("Languages", languageFolderName);
-            // NOTE: from PawnNameDatabaseShuffled
+
+#if DEBUG
+            Log.Message($"Importing from {relativeLanguagePath}.");
+#endif
+
             AddNamesFromFile(nameBank, PawnNameSlot.First, Gender.Male, "First_Male.txt", relativeLanguagePath);
             AddNamesFromFile(nameBank, PawnNameSlot.First, Gender.Female, "First_Female.txt", relativeLanguagePath);
             AddNamesFromFile(nameBank, PawnNameSlot.Nick, Gender.Male, "Nick_Male.txt", relativeLanguagePath);
@@ -46,8 +64,24 @@ namespace NamesGalore
 
         private static void AddNamesFromFile(NameBank nameBank, PawnNameSlot slot, Gender gender, string fileName, string relativeLanguagePath)
         {
-            if (File.Exists(fileName))
-                nameBank.AddNames(slot, gender, LinesFromFile(ComposePath(fileName, relativeLanguagePath)));
+            bool count = NamesGaloreMod.settings.logging;
+            curPath = ComposePath(fileName, relativeLanguagePath);
+            if (count)
+            {
+                counter = 0;
+                if (File.Exists(curPath))
+                    nameBank.AddNames(slot, gender, LinesFromFileWithCount(curPath));
+                else
+                    Log.Error($"Path not found: {curPath}");
+                Log.Message($"Imported {counter} {gender} {slot}s.");
+            }
+            else
+            {
+                if (File.Exists(curPath))
+                    nameBank.AddNames(slot, gender, LinesFromFile(curPath));
+                else
+                    Log.Error($"Path not found: {curPath}");
+            }
         }
 
         private static string ComposePath(string fileName, string relativeLanguagePath)
@@ -63,5 +97,16 @@ namespace NamesGalore
                 yield return line;
             }
         }
+
+        private static IEnumerable<string> LinesFromFileWithCount(string filePath)
+        {
+            string rawText = GenFile.TextFromRawFile(filePath);
+            foreach (string line in GenText.LinesFromString(rawText))
+            {
+                yield return line;
+                counter++;
+            }
+        }
+
     }
 }
