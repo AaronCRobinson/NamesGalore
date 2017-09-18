@@ -71,7 +71,7 @@ namespace NamesGalore
             {
                 counter = 0;
                 if (File.Exists(curPath))
-                    nameBank.AddNames(slot, gender, LinesFromFileWithCount(curPath));
+                    nameBank.AddNames(slot, gender, LinesFromFileWithCount_Fast(curPath));
                 else
                     Log.Error($"Path not found: {curPath}");
                 Log.Message($"Imported {counter} {gender} {slot}s.");
@@ -90,14 +90,24 @@ namespace NamesGalore
             return Path.Combine(Path.Combine(NamesGaloreMod.settings.rootDir, relativeLanguagePath), Path.Combine("Names", fileName));
         }
 
-
+        // NOTE: no longer any validation. Consider implementing such a `admin` feature.
         private static IEnumerable<string> LineFromFile_Fast(string filePath)
         {
             stream = new StreamReader(filePath);
             while (stream.Peek() >= 0) yield return stream.ReadLine();
         }
 
-        private static IEnumerable<string> LinesFromFile(string filePath)
+        private static IEnumerable<string> LinesFromFileWithCount_Fast(string filePath)
+        {
+            stream = new StreamReader(filePath);
+            while (stream.Peek() >= 0)
+            {
+                yield return stream.ReadLine();
+                counter++;
+            }
+        }
+
+        /*private static IEnumerable<string> LinesFromFile(string filePath)
         {
             string rawText = GenFile.TextFromRawFile(filePath);
             foreach (string line in GenText.LinesFromString(rawText))
@@ -114,7 +124,7 @@ namespace NamesGalore
                 yield return line;
                 counter++;
             }
-        }
+        }*/
 
     }
 }
