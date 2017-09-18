@@ -15,6 +15,7 @@ namespace NamesGalore
         static FieldInfo FI_banks = AccessTools.Field(typeof(PawnNameDatabaseShuffled), "banks");
         static int counter;
         static string curPath;
+        static StreamReader stream;
 
         static NameInjector()
         {
@@ -78,7 +79,7 @@ namespace NamesGalore
             else
             {
                 if (File.Exists(curPath))
-                    nameBank.AddNames(slot, gender, LinesFromFile(curPath));
+                    nameBank.AddNames(slot, gender, LineFromFile_Fast(curPath));
                 else
                     Log.Error($"Path not found: {curPath}");
             }
@@ -87,6 +88,13 @@ namespace NamesGalore
         private static string ComposePath(string fileName, string relativeLanguagePath)
         {
             return Path.Combine(Path.Combine(NamesGaloreMod.settings.rootDir, relativeLanguagePath), Path.Combine("Names", fileName));
+        }
+
+
+        private static IEnumerable<string> LineFromFile_Fast(string filePath)
+        {
+            stream = new StreamReader(filePath);
+            while (stream.Peek() >= 0) yield return stream.ReadLine();
         }
 
         private static IEnumerable<string> LinesFromFile(string filePath)
