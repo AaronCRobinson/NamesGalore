@@ -42,7 +42,7 @@ namespace NamesGalore
         {
             Listing_Standard listing = new Listing_Standard();
             listing.Begin(inRect);
-            listing.AddLabelLine("NG_RestartNote".Translate());
+            listing.AddLabelLine("NG_RestartNote".Translate(), 2f * Text.LineHeight);
             listing.AddHorizontalLine();
             listing.AddLabeledSlider($"{"NG_NicknameProbability".Translate()}: ", ref settings.nicknameProbability, 0.0f, 1.0f);
             listing.AddLabeledSlider($"{"NG_SolidNameProbability".Translate()}: ", ref settings.solidNameProbability, 0.0f, 1.0f);
