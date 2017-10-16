@@ -107,24 +107,5 @@ namespace NamesGalore
             }
         }
 
-        /*private static IEnumerable<string> LinesFromFile(string filePath)
-        {
-            string rawText = GenFile.TextFromRawFile(filePath);
-            foreach (string line in GenText.LinesFromString(rawText))
-            {
-                yield return line;
-            }
-        }
-
-        private static IEnumerable<string> LinesFromFileWithCount(string filePath)
-        {
-            string rawText = GenFile.TextFromRawFile(filePath);
-            foreach (string line in GenText.LinesFromString(rawText))
-            {
-                yield return line;
-                counter++;
-            }
-        }*/
-
     }
 }

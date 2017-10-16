@@ -1,17 +1,19 @@
 ﻿using Verse;
 using UnityEngine;
-using ModSettingsHelper;
+using SettingsHelper;
 
 namespace NamesGalore
 {
     public class NamesGaloreSettings : ModSettings
     {
         private const float nicknameProbability_default = 0.3f;
+        private const float solidNameProbability_default = 0.1f;
 
         public string rootDir; // NOTE: no need to expose
         public bool international = false;
         public bool logging = false;
         public float nicknameProbability = nicknameProbability_default;
+        public float solidNameProbability = solidNameProbability_default;
 
         public override void ExposeData()
         {
@@ -19,6 +21,7 @@ namespace NamesGalore
             Scribe_Values.Look(ref this.international, "international", false);
             Scribe_Values.Look(ref this.logging, "logging", false);
             Scribe_Values.Look(ref this.nicknameProbability, "nicknameProbability", nicknameProbability_default);
+            Scribe_Values.Look(ref this.solidNameProbability, "solidNameProbability", solidNameProbability_default);
         }
     }
 
@@ -30,18 +33,27 @@ namespace NamesGalore
         {
             settings = GetSettings<NamesGaloreSettings>();
             settings.rootDir = content.RootDir;
+            ListingStandardHelper.Gap = 10f;
         }
 
         public override string SettingsCategory() => "NG_SettingsCategoryLabel".Translate();
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            ModWindowHelper.Reset();
-            ModWindowHelper.MakeLabeledCheckbox(inRect, $"{"NG_EnableInternationalLabel".Translate()}: ", ref settings.international);
-            ModWindowHelper.MakeLabel(inRect, "NG_InternationalNote".Translate());
-            ModWindowHelper.MakeLabeledCheckbox(inRect, $"{"NG_EnableLogging".Translate()}: ", ref settings.logging);
-            settings.nicknameProbability = ModWindowHelper.HorizontalSlider(inRect, settings.nicknameProbability, 0.0f, 1.0f, leftAlignedLabel: $"{"NG_NicknameProbability".Translate()}: ");
+            Listing_Standard listing = new Listing_Standard();
+            listing.Begin(inRect);
+            listing.AddLabelLine("NG_RestartNote".Translate());
+            listing.AddHorizontalLine();
+            listing.AddLabeledSlider($"{"NG_NicknameProbability".Translate()}: ", ref settings.nicknameProbability, 0.0f, 1.0f);
+            listing.AddLabeledSlider($"{"NG_SolidNameProbability".Translate()}: ", ref settings.solidNameProbability, 0.0f, 1.0f);
+            listing.AddHorizontalLine();
+            listing.AddLabelLine("NG_InternationalNote".Translate());
+            listing.AddLabeledCheckbox($"{"NG_EnableLogging".Translate()}: ", ref settings.logging);
+            listing.AddHorizontalLine();
+            listing.AddLabeledCheckbox($"{"NG_EnableInternationalLabel".Translate()}: ", ref settings.international);
+            listing.End();
             settings.Write();
         }
     }
+    
 }
