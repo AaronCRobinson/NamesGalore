@@ -3,13 +3,13 @@
 Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surnames_A.htm). Currently only works for players with `English` set as their language.
 
 ## Features
-- Reduces change of a 'solid name' to 10% versus 50%
 - Adds over 150k surnames
 - Adds first names for females and males
 - Adds nicknames for males, females, and unisex
 - Adds romanized names for most languages
 - Adds ability to do "international names" which mixes up names from different cultures
 - Adds ability to set nickname probability rate (adjusted default from 0.15, to 0.3)
+- Adds ability to set solid name probability rate (adjusted default from 0.10, to 0.5)
 
 ## Help Wanted
 
