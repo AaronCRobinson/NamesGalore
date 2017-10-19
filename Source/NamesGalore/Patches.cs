@@ -11,6 +11,7 @@ namespace NamesGalore
         private static float curSolidNameProbability = 0.5f;
         private static float curNicknameProbability = 0.15f;
 
+        public Patcher() { }
         public Patcher(Game g) { }
 
         public override void FinalizeInit()
