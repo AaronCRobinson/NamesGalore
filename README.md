@@ -1,4 +1,4 @@
-# NamesGalore [![RimWorld Beta 19](https://img.shields.io/badge/RimWorld-Alpha%2018-brightgreen.svg)](http://rimworldgame.com/) 
+# NamesGalore [![RimWorld Beta 19](https://img.shields.io/badge/RimWorld-Beta%20v0.19-green.svg?longCache=true&style=plastic)](http://rimworldgame.com/)
 
 Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surnames_A.htm). Currently only works for players with `English` set as their language.
 
