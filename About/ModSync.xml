@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>fa18c991-43a4-4f00-b4cb-3e6f0267ee70</ID>
   <ModName>NamesGalore</ModName>
-  <Version>0.19.1</Version>
+  <Version>0.19.2</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>AaronCRobinson</Owner>
