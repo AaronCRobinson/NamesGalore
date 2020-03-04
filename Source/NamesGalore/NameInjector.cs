@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Verse;
 using RimWorld;
-using Harmony;
+using HarmonyLib;
 
 namespace NamesGalore
 {
@@ -39,7 +39,7 @@ namespace NamesGalore
                     Log.Error(string.Format("NG_LanguageNotFound".Translate(), curLanguage));
             }
 #if DEBUG
-            nameBank.ErrorCheck();
+            //nameBank.ErrorCheck();
 #endif
         }
 

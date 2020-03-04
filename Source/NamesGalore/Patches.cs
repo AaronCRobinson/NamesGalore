@@ -2,7 +2,7 @@
 using System.Reflection.Emit;
 using Verse;
 using RimWorld;
-using Harmony;
+using HarmonyLib;
 
 namespace NamesGalore
 {
@@ -10,22 +10,51 @@ namespace NamesGalore
     {
         private static float curSolidNameProbability = 0.5f;
         private static float curNicknameProbability = 0.15f;
+        private static Harmony _harmony;
+        private static Harmony harmony
+        {
+            get {
+                if (_harmony==null)
+                {
+                    _harmony = new Harmony("rimworld.whyisthat.namesgalore.patcher");
+                }
+                return _harmony;
+            }
+            set { _harmony = value; }
+        }
 
-        public Patcher() { }
-        public Patcher(Game g) { }
+        public Patcher() => ApplyPatches();
 
-        public override void FinalizeInit()
+        public Patcher(Game g) => ApplyPatches();
+
+        //public override void FinalizeInit()
+        private void ApplyPatches()
         {
 #if DEBUG
-            HarmonyInstance.DEBUG = true;
+            Harmony.DEBUG = true;
 #endif
-            HarmonyInstance harmony = HarmonyInstance.Create("rimworld.whyisthat.namesgalore.patcher");
+            if (curSolidNameProbability != NamesGaloreMod.settings.solidNameProbability)
+            {
+#if DEBUG
+                Log.Message("NamesGalore: Patching Solid Name Probability");
+#endif
+                harmony.Patch(AccessTools.Method(typeof(PawnBioAndNameGenerator), nameof(PawnBioAndNameGenerator.GeneratePawnName)), null, null, new HarmonyMethod(typeof(Patcher), nameof(ReduceSolidNameChance)));
+                curSolidNameProbability = NamesGaloreMod.settings.solidNameProbability;
+            }
 
-            harmony.Patch(AccessTools.Method(typeof(PawnBioAndNameGenerator), nameof(PawnBioAndNameGenerator.GeneratePawnName)), null, null, new HarmonyMethod(typeof(Patches), nameof(ReduceSolidNameChance)));
-            curSolidNameProbability = NamesGaloreMod.settings.solidNameProbability;
+            if (curNicknameProbability != NamesGaloreMod.settings.nicknameProbability)
+            {
+#if DEBUG
+                Log.Message("NamesGalore: Patching Nickname Probability");
+#endif
+                harmony.Patch(AccessTools.Method(typeof(PawnBioAndNameGenerator), "GeneratePawnName_Shuffled"), null, null, new HarmonyMethod(typeof(Patcher), nameof(AdjustNicknameChance)));
+                curNicknameProbability = NamesGaloreMod.settings.nicknameProbability;
+            }
 
-            harmony.Patch(AccessTools.Method(typeof(PawnBioAndNameGenerator), "GeneratePawnName_Shuffled"), null, null, new HarmonyMethod(typeof(Patches), nameof(AdjustNicknameChance)));
-            curNicknameProbability = NamesGaloreMod.settings.nicknameProbability;
+            harmony = null;
+#if DEBUG
+            Harmony.DEBUG = false;
+#endif
         }
 
         private static IEnumerable<CodeInstruction> ReduceSolidNameChance(IEnumerable<CodeInstruction> instructions)
