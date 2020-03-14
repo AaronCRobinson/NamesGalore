@@ -15,6 +15,8 @@ Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surn
 
 Would you like to bring you culture's rich naming history into RimWorld? Then contact me about adding more names. This mod is not limited to romanized names but so far that's the only form of names I have been able to collect in any reasonable manner.
 
+To purpose new names, please open a "Name data" issue and attach the related files: "First_Female.txt", "First_Male.txt", "Last.txt", "Nick_Female.txt", "Nick_Male.txt", and "Nick_Unisex.txt". Please only include new names in the file. I will concatenate it with the appropriate language-related files. 
+
 ## Acknowledgements
 
 Arkamedes, Zilcher, and Legless Acidancer for help naming. Special thanks to Pardeike's amazing non-destructive patching library, Harmony.
