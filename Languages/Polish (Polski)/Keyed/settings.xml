@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <NG_RestartNote>WAŻNA UWAGA: Zmiana tych ustawień nie nastąpi natychmiast. Ustawienia są stosowane po uruchomieniu nowej gry lub załadowaniu gry.</NG_RestartNote>
+  <NG_SettingsCategoryLabel>Names Galore</NG_SettingsCategoryLabel>
+  <NG_EnableInternationalLabel>Nazwy międzynarodowe</NG_EnableInternationalLabel>
+  <NG_InternationalNote>UWAGA: "Nazwy międzynarodowe" ustawia ten mod tak, aby mieszał nazwy ze wszystkich języków, a nie tylko z twojego języka.</NG_InternationalNote>
+  <NG_NicknameProbability>Prawdopodobieństwo nickname</NG_NicknameProbability>
+  <NG_SolidNameProbability>Prawdopodobieństwo solidnej nazwy</NG_SolidNameProbability>
+  <NG_EnableLogging>Logowanie</NG_EnableLogging>
+</LanguageData>

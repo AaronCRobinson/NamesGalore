@@ -11,7 +11,7 @@ namespace NamesGalore
     [StaticConstructorOnStartup]
     public static class NameInjector
     {
-        static HashSet<string> supportedLangages = new HashSet<string> { "Chinese", "Dutch", "English", "French", "German", "Italian", "Japanese", "Korean", "Norwegian", "Polish", "Russian", "Spanish", "SpanishLatin", "Turkish", "Ukrainian" };
+        static HashSet<string> supportedLangages = new HashSet<string> { "Chinese", "Dutch", "English", "French", "German", "Italian", "Japanese", "Korean", "Norwegian", "Polish (Polski)", "Russian", "Spanish", "SpanishLatin", "Turkish", "Ukrainian" };
         static FieldInfo FI_banks = AccessTools.Field(typeof(PawnNameDatabaseShuffled), "banks");
         static int counter;
         static string curPath;
@@ -21,6 +21,7 @@ namespace NamesGalore
         {
             Log.Message("NamesGalore: Injecting Names");
             Dictionary<PawnNameCategory,NameBank> banks = (Dictionary<PawnNameCategory,NameBank>)FI_banks.GetValue(null);
+            banks[PawnNameCategory.HumanStandard] = new NameBank(PawnNameCategory.HumanStandard);
             NameBank nameBank = banks[PawnNameCategory.HumanStandard];
 
             if (NamesGaloreMod.settings.international)
@@ -31,8 +32,8 @@ namespace NamesGalore
             }
             else
             {
-                string curLanguage = LanguageDatabase.defaultLanguage.folderName;
-
+                string curLanguage = LanguageDatabase.activeLanguage.folderName;
+                Log.Message($"NamesGalore: Curent Lang {curLanguage}");
                 if (supportedLangages.Contains(curLanguage))
                     LoadNamesForLangauge(nameBank, curLanguage);
                 else

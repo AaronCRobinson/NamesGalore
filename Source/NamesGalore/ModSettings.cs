@@ -15,6 +15,7 @@ namespace NamesGalore
         public float nicknameProbability = nicknameProbability_default;
         public float solidNameProbability = solidNameProbability_default;
 
+      
         public override void ExposeData()
         {
             base.ExposeData();
