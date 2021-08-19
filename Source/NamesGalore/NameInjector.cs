@@ -21,7 +21,10 @@ namespace NamesGalore
         {
             Log.Message("NamesGalore: Injecting Names");
             Dictionary<PawnNameCategory,NameBank> banks = (Dictionary<PawnNameCategory,NameBank>)FI_banks.GetValue(null);
-            banks[PawnNameCategory.HumanStandard] = new NameBank(PawnNameCategory.HumanStandard);
+
+            if (NamesGaloreMod.settings.removeDefaultNames)
+                banks[PawnNameCategory.HumanStandard] = new NameBank(PawnNameCategory.HumanStandard);
+
             NameBank nameBank = banks[PawnNameCategory.HumanStandard];
 
             if (NamesGaloreMod.settings.international)

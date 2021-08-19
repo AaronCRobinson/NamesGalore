@@ -12,15 +12,16 @@ namespace NamesGalore
         public string rootDir; // NOTE: no need to expose
         public bool international = false;
         public bool logging = false;
+        public bool removeDefaultNames = false;
         public float nicknameProbability = nicknameProbability_default;
         public float solidNameProbability = solidNameProbability_default;
-
       
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Values.Look(ref this.international, "international", false);
             Scribe_Values.Look(ref this.logging, "logging", false);
+            Scribe_Values.Look(ref this.removeDefaultNames, "removeDefaultNames", false);
             Scribe_Values.Look(ref this.nicknameProbability, "nicknameProbability", nicknameProbability_default);
             Scribe_Values.Look(ref this.solidNameProbability, "solidNameProbability", solidNameProbability_default);
         }
@@ -52,6 +53,8 @@ namespace NamesGalore
             listing.AddLabeledCheckbox($"{"NG_EnableLogging".Translate()}: ", ref settings.logging);
             listing.AddHorizontalLine();
             listing.AddLabeledCheckbox($"{"NG_EnableInternationalLabel".Translate()}: ", ref settings.international);
+            listing.AddHorizontalLine();
+            listing.AddLabeledCheckbox($"{"NG_RemoveDefaultNamesLabel".Translate()}: ", ref settings.removeDefaultNames);
             listing.End();
             settings.Write();
         }
