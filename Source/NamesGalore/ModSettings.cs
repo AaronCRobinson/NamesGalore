@@ -6,8 +6,8 @@ namespace NamesGalore
 {
     public class NamesGaloreSettings : ModSettings
     {
-        private const float nicknameProbability_default = 0.3f;
-        private const float solidNameProbability_default = 0.1f;
+        private const float nicknameProbability_default = 1.0f;
+        private const float solidNameProbability_default = 1.0f;
 
         public string rootDir; // NOTE: no need to expose
         public bool international = false;
@@ -15,6 +15,7 @@ namespace NamesGalore
         public float nicknameProbability = nicknameProbability_default;
         public float solidNameProbability = solidNameProbability_default;
 
+      
         public override void ExposeData()
         {
             base.ExposeData();

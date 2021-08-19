@@ -1,0 +1,15 @@
+kucharz
+medyk
+lekarz
+kowal
+piekarz
+rycerz
+tancerz
+malarz
+architekt
+wynalazca
+policjant
+górnik
+kierowca
+sprzedawca
+kupiec
