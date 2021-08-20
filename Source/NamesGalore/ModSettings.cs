@@ -50,11 +50,11 @@ namespace NamesGalore
             listing.AddLabeledSlider($"{"NG_SolidNameProbability".Translate()}: ", ref settings.solidNameProbability, 0.0f, 1.0f);
             listing.AddHorizontalLine();
             listing.AddLabelLine("NG_InternationalNote".Translate());
-            listing.AddLabeledCheckbox($"{"NG_EnableLogging".Translate()}: ", ref settings.logging);
-            listing.AddHorizontalLine();
             listing.AddLabeledCheckbox($"{"NG_EnableInternationalLabel".Translate()}: ", ref settings.international);
             listing.AddHorizontalLine();
             listing.AddLabeledCheckbox($"{"NG_RemoveDefaultNamesLabel".Translate()}: ", ref settings.removeDefaultNames);
+            listing.AddHorizontalLine();
+            listing.AddLabeledCheckbox($"{"NG_EnableLogging".Translate()}: ", ref settings.logging);
             listing.End();
             settings.Write();
         }

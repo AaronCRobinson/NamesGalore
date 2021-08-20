@@ -71,10 +71,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-xcopy /s /Y "$(TargetDir)1SettingsHelper.dll" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
-xcopy /s /Y "$(TargetDir)NamesGalore.dll" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
-xcopy /S /Y "$(SolutionDir)..\About\*" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\About\"
-xcopy /S /Y "$(SolutionDir)..\Languages\*" "C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\$(ProjectName)\Languages\"</PostBuildEvent>
+    <PostBuildEvent>del "$(TargetDir)UnityEngine*"
+xcopy /s /Y "$(TargetDir)1SettingsHelper.dll" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
+xcopy /s /Y "$(TargetDir)NamesGalore.dll" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
+xcopy /S /Y "$(SolutionDir)..\About\*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\About\"
+xcopy /S /Y "$(SolutionDir)..\Languages\*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Languages\"</PostBuildEvent>
   </PropertyGroup>
 </Project>
