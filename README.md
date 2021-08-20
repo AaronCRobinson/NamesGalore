@@ -1,6 +1,6 @@
 # NamesGalore [![RimWorld 1.3](https://img.shields.io/badge/RimWorld-1.3-green.svg?longCache=true&style=plastic)](http://rimworldgame.com/)
 
-Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surnames_A.htm). Currently only works for players with `English` set as their language.
+Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surnames_A.htm).
 
 ## Features
 - Adds over 150k surnames
@@ -10,6 +10,7 @@ Adds lots of names. Uses [US Consensus Data](http://names.mongabay.com/data/surn
 - Adds ability to do "international names" which mixes up names from different cultures
 - Adds ability to set nickname probability rate (adjusted default from 0.15, to 0.3)
 - Adds ability to set solid name probability rate (adjusted default from 0.10, to 0.5)
+- Supports English, ChineseSimplified (简体中文),Dutch (Nederlands), French (Français),German (Deutsch), Italian (Italiano), Japanese (日本語), Korean (한국어),Norwegian (Norsk Bokmål), Polish (Polski), Russian (Русский), Spanish (Español), SpanishLatin (Español), Turkish (Türkçe), Ukrainian (Українська)
 
 ## Help Wanted
 
