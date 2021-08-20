@@ -37,12 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>lib\0Harmony.dll</HintPath>
+      <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\Mods\Harmony\Current\Assemblies\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="1SettingsHelper">
-      <HintPath>.\lib\1SettingsHelper.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\..\..\SettingsHelper\Assemblies\1SettingsHelper.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -71,9 +70,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>del "$(TargetDir)UnityEngine*"
-xcopy /s /Y "$(TargetDir)1SettingsHelper.dll" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
-xcopy /s /Y "$(TargetDir)NamesGalore.dll" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
+    <PostBuildEvent>xcopy /s /Y "$(TargetDir)*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
 xcopy /S /Y "$(SolutionDir)..\About\*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\About\"
 xcopy /S /Y "$(SolutionDir)..\Languages\*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Languages\"</PostBuildEvent>
   </PropertyGroup>
