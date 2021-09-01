@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomNameBank.cs" />
     <Compile Include="Patches.cs" />
     <Compile Include="NameInjector.cs" />
     <Compile Include="ModSettings.cs" />
@@ -73,5 +74,8 @@
     <PostBuildEvent>xcopy /s /Y "$(TargetDir)*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Assemblies\"
 xcopy /S /Y "$(SolutionDir)..\About\*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\About\"
 xcopy /S /Y "$(SolutionDir)..\Languages\*" "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Languages\"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>rmdir /S /Q "D:\SteamLibrary\steamapps\common\RimWorld\Mods\$(ProjectName)\Languages\"</PreBuildEvent>
   </PropertyGroup>
 </Project>
