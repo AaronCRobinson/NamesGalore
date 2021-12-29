@@ -9,8 +9,8 @@ namespace NamesGalore
 {
     class Patcher : GameComponent
     {
-        private static float curSolidNameProbability = 1.0f;
-        private static float curNicknameProbability = 1.0f;
+        private static float curSolidNameProbability = 0.5f;
+        private static float curNicknameProbability = 0.15f;
         private static Harmony _harmony;
         private static Harmony harmony
         {
